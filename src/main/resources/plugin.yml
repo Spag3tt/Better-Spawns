@@ -1,0 +1,11 @@
+name: BetterSpawns
+version: 0.1.3
+main: com.bettersp.bettersp.BetterSpawns
+api-version: 1.21
+commands:
+  play:
+    description: Teleports the player to a random spawn location in the main world.
+    usage: /play
+  bsreload:
+    description: Reloads the Better Spawns config
+    permission: bettersp.reload
