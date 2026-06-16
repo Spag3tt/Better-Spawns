@@ -1,5 +1,5 @@
-# BetterSpawns v0.1.3
-# This config will work with versions 0.1.3 up until at least 0.1.3
+# BetterSpawns v1.0.2
+# This config will work with versions 0.1.3 up until at least 1.0.2
 
 # Players will not be teleported to any location where they would be positioned on the following blocks:
 unsafe-ground-blocks:
