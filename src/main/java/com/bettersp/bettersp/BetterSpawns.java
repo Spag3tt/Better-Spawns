@@ -51,6 +51,12 @@ public class BetterSpawns extends JavaPlugin {
             }
 
             Player player = (Player) sender;
+
+            if (!player.hasPermission("bettersp.play")) {
+                player.sendMessage(ChatColor.RED + "You don't have permission to use this command.");
+                return true;
+            }
+
             World mainWorld = Bukkit.getWorld(MAIN_WORLD_NAME);
 
             if (mainWorld == null) {
